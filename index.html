@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RealFruit</title>
+    <link rel="stylesheet" href="./my_reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="common.css" />
+    <script src="realfruit.js"></script>
+  </head>
+  <body>
+    <floating class="floating">
+      <div class="button">
+        <button>
+          <i class="fa-solid fa-circle-chevron-up"></i>
+        </button>
+        <button>
+          <i class="fa-solid fa-circle-chevron-down"></i>
+        </button>
+      </div>
+    </floating>
+
+    <header class="hd">
+      <nav class="nav mw">
+        <h1>
+          <a href=""><img src="./img/로고.png" alt="logo" /></a>
+        </h1>
+        <ul class="gnb on">
+          <li>
+            <a href="#">정기배송</a>
+            <ul class="sub">
+              <li><a href="#">서브메뉴1</a></li>
+              <li><a href="#">서브메뉴2</a></li>
+              <li><a href="#">서브메뉴3</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">제철과일</a>
+            <ul class="sub">
+              <li><a href="#">서브메뉴1</a></li>
+              <li><a href="#">서브메뉴2</a></li>
+              <li><a href="#">서브메뉴3</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">이벤트</a>
+            <ul class="sub">
+              <li><a href="#">서브메뉴1</a></li>
+              <li><a href="#">서브메뉴2</a></li>
+              <li><a href="#">서브메뉴3</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">이벤트</a>
+            <ul class="sub">
+              <li><a href="#">서브메뉴1</a></li>
+              <li><a href="#">서브메뉴2</a></li>
+              <li><a href="#">서브메뉴3</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">리얼후르츠</a>
+            <ul class="sub">
+              <li><a href="#">서브메뉴1</a></li>
+              <li><a href="#">서브메뉴2</a></li>
+              <li><a href="#">서브메뉴3</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">비즈몰</a>
+            <ul class="sub">
+              <li><a href="#">서브메뉴1</a></li>
+              <li><a href="#">서브메뉴2</a></li>
+              <li><a href="#">서브메뉴3</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="right">
+          <a href="#">로그인</a>
+          <a href="#">회원가입</a>
+          <a href="#">마이페이지</a>
+          <a href="#">주문조회</a>
+          <a href="#"
+            >고객센터
+            <i class="fa-solid fa-play"></i>
+            <div class="r_sub">
+              <ul class="right_sub">
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">자주하는 질문</a></li>
+                <li><a href="#">1:1문의</a></li>
+              </ul>
+            </div>
+          </a>
+
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+          <i class="fa-solid fa-bars ham"></i>
+        </div>
+      </nav>
+    </header>
+
+    <section class="sec1">
+      <!-- sec영역은 넓이 100%, 하위 컨텐츠는 max-width 내부 우측 배치 -->
+      <div class="sec1_m">
+        <div class="main_txt">
+          <p>과일 미식가를 위한 리얼후르츠 제철과일 구독서비스</p>
+          <h2>
+            우리는 <span>리얼후르츠</span> 의<br />
+            과일마스터입니다
+          </h2>
+          <div class="sec1_btn">
+            <button>제철과일</button>
+            <button>추천과일</button>
+            <button>맞춤선물과일세트</button>
+          </div>
+          <button>구독하기</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec2 mw">
+      <h2>제철과일 단품</h2>
+      <article>
+        <div class="swiper sec2_slide1">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <div class="inner">
+                <div class="img"><img src="./img/메론.png" alt="" /></div>
+                <div class="menu_txt">
+                  <p>명품 제철과일 선물과일 멜론 2입<br />(4kg이상)</p>
+                  <p>
+                    19,800원
+                    <span>32,000원</span>
+                  </p>
+                </div>
+                <div class="sec2_i">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <a href="#"></a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="./img/바나나.png" alt="" /></div>
+                <div class="menu_txt">
+                  <p>명품 제철과일 선물과일 멜론 2입<br />(4kg이상)</p>
+                  <p>
+                    19,800원
+                    <span>32,000원</span>
+                  </p>
+                </div>
+                <div class="sec2_i">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <a href="#"></a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="./img/Mask group.png" alt="" /></div>
+                <div class="menu_txt">
+                  <p>명품 제철과일 선물과일 멜론 2입<br />(4kg이상)</p>
+                  <p>
+                    19,800원
+                    <span>32,000원</span>
+                  </p>
+                </div>
+                <div class="sec2_i">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <a href="#"></a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="./img/딸기.png" alt="" /></div>
+                <div class="menu_txt">
+                  <p>명품 제철과일 선물과일 멜론 2입<br />(4kg이상)</p>
+                  <p>
+                    19,800원
+                    <span>32,000원</span>
+                  </p>
+                </div>
+                <div class="sec2_i">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <a href="#"></a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="./img/딸기.png" alt="" /></div>
+                <div class="menu_txt">
+                  <p>명품 제철과일 선물과일 멜론 2입<br />(4kg이상)</p>
+                  <p>
+                    19,800원
+                    <span>32,000원</span>
+                  </p>
+                </div>
+                <div class="sec2_i">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <a href="#"></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="swiper-button-next next1"></div>
+        <div class="swiper-button-prev prev1"></div>
+      </article>
+
+      <h2>과일 패키지</h2>
+      <article>
+        <div class="swiper sec2_slide2">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="./img/Mask group (2).png" alt="" /></div>
+                <div class="menu_txt">
+                  <p>명품 제철과일 선물과일 멜론 2입<br />(4kg이상)</p>
+                  <p>
+                    19,800원
+                    <span>32,000원</span>
+                  </p>
+                </div>
+                <div class="sec2_i">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <a href="#"></a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="./img/Mask group (3).png" alt="" /></div>
+                <div class="menu_txt">
+                  <p>명품 제철과일 선물과일 멜론 2입<br />(4kg이상)</p>
+                  <p>
+                    19,800원
+                    <span>32,000원</span>
+                  </p>
+                </div>
+                <div class="sec2_i">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <a href="#"></a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="./img/Mask group (4).png" alt="" /></div>
+                <div class="menu_txt">
+                  <p>명품 제철과일 선물과일 멜론 2입<br />(4kg이상)</p>
+                  <p>
+                    19,800원
+                    <span>32,000원</span>
+                  </p>
+                </div>
+                <div class="sec2_i">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <a href="#"></a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="./img/Mask group (5).png" alt="" /></div>
+                <div class="menu_txt">
+                  <p>명품 제철과일 선물과일 멜론 2입<br />(4kg이상)</p>
+                  <p>
+                    19,800원
+                    <span>32,000원</span>
+                  </p>
+                </div>
+                <div class="sec2_i">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <a href="#"></a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="./img/Mask group (5).png" alt="" /></div>
+                <div class="menu_txt">
+                  <p>명품 제철과일 선물과일 멜론 2입<br />(4kg이상)</p>
+                  <p>
+                    19,800원
+                    <span>32,000원</span>
+                  </p>
+                </div>
+                <div class="sec2_i">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <a href="#"></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="swiper-button-next next2"></div>
+        <div class="swiper-button-prev prev2"></div>
+      </article>
+    </section>
+
+    <section class="sec3 mw">
+      <h2>FRUIT STORY</h2>
+
+      <div class="left_ban">
+        <div class="img">
+          <img src="./img/배너원본.png" alt="" />
+        </div>
+        <div class="leftban_text">
+          <p>
+            제철과일 <br /><span>11월</span><br />
+            리얼후르츠<br />과일보관법
+          </p>
+        </div>
+        <a href="#"></a>
+      </div>
+
+      <div class="right_ban">
+        <div class="right_main">
+          <p>맛없어진 과일, 그냥 먹지 마세요~</p>
+          <p>과일맛 살리는 <span>꿀맛</span> 레시피</p>
+        </div>
+
+        <ul class="recipe">
+          <li class="recipe_con">
+            <div class="img">
+              <img src="./img/푸르츠 아이스바.png" alt="" />
+            </div>
+            <div class="recipe_text">
+              <p>푸르츠 아이스바</p>
+              <a href="#">더보기</a>
+            </div>
+          </li>
+          <li class="recipe_con">
+            <div class="img"><img src="./img/멜론코코넛셔벗.png" alt="" /></div>
+            <div class="recipe_text">
+              <p>멜론 코코넛 셔벗</p>
+              <a href="#">더보기</a>
+            </div>
+          </li>
+          <li class="recipe_con">
+            <div class="img"><img src="./img/자두라임에이드.png" alt="" /></div>
+            <div class="recipe_text">
+              <p>자두 라임에이드</p>
+              <a href="#">더보기</a>
+            </div>
+          </li>
+          <li class="recipe_con">
+            <div class="img"><img src="./img/토마토그라니타.png" alt="" /></div>
+            <div class="recipe_text">
+              <p>토마토 그라니타</p>
+              <a href="#">더보기</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="sec4 mw">
+      <h2>EVENT</h2>
+      <article class="event">
+        <div class="swiper sec4_slide1">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="./img/이벤트1.png" alt="" /></div>
+                <a href="#"></a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="./img/이벤트2.png" alt="" /></div>
+                <a href="#"></a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="./img/이벤트3.png" alt="" /></div>
+                <a href="#"></a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="./img/이벤트4.png" alt="" /></div>
+                <a href="#"></a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="./img/이벤트1.png" alt="" /></div>
+                <a href="#"></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="swiper-button-next next3"></div>
+        <div class="swiper-button-prev prev3"></div>
+      </article>
+    </section>
+
+    <footer class="foot mw">
+      <div class="img"><img src="./img/푸터 로고.png" alt="logo" /></div>
+      <div class="customer">
+        <p>CUSTOMER CENTER</p>
+        <p>[평일] AM 10:00 ~ PM 06:00</p>
+        <p>[점심] AM 12:00 ~ PM 01:00</p>
+        <p>토요일 / 일요일 / 공휴일 휴무</p>
+      </div>
+      <div class="company">
+        <p>COMPANY</p>
+        <div class="c_img"><img src="./img/car 1.png" alt="" /></div>
+        <p>법인명(상호) : 주식회사 레드체리 │ 대표자(성명) : 최준호</p>
+        <p>
+          사업자등록번호 : 583-87-00961 │ 통신판매업신고: 제2018-서울마포-1310호
+          [ 사업자정보확인 ]
+        </p>
+        <p>
+          고객센터 : 1877-7235 │ 주소 : 경기도 고양시 일산동구 무궁화로
+          20-18,507호 (42702)
+        </p>
+        <p>개인정보보호책임자 : 이다영 redcherry7272@naver.com )</p>
+      </div>
+      <div class="footer_icons">
+        <p>SNS</p>
+        <a href="#"><img src="./img/카카오톡.png" alt="" /></a>
+        <a href="#"><img src="./img/블로그.png" alt="" /></a>
+        <a href="#"><img src="./img/인스타.png" alt="" /></a>
+      </div>
+    </footer>
+  </body>
+</html>

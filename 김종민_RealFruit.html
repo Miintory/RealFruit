@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RealFruit</title>
+    <!-- 강사수정 : 직관적인 관리를 위해 css와 js 파일을 구분하여 정리 -->
+    <link rel="stylesheet" href="./my_reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="common.css" />
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- <script src="직접 작성한 js 파일" defer></script> -->
+  </head>
+  <body>
+    <header class="hd">
+      <nav class="nav">
+        <h1>
+          <a href=""><img src="" alt="logo" /></a>
+        </h1>
+        <ul class="gnb">
+          <li>
+            <a href="#">정기배송</a>
+            <ul>
+              <li><a href="#">서브메뉴1</a></li>
+              <li><a href="#">서브메뉴2</a></li>
+              <li><a href="#">서브메뉴3</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">제철과일</a>
+            <ul>
+              <li><a href="#">서브메뉴1</a></li>
+              <li><a href="#">서브메뉴2</a></li>
+              <li><a href="#">서브메뉴3</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">이벤트</a>
+            <ul>
+              <li><a href="#">서브메뉴1</a></li>
+              <li><a href="#">서브메뉴2</a></li>
+              <li><a href="#">서브메뉴3</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">이벤트</a>
+            <ul>
+              <li><a href="#">서브메뉴1</a></li>
+              <li><a href="#">서브메뉴2</a></li>
+              <li><a href="#">서브메뉴3</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">리얼후르츠</a>
+            <ul>
+              <li><a href="#">서브메뉴1</a></li>
+              <li><a href="#">서브메뉴2</a></li>
+              <li><a href="#">서브메뉴3</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">비즈몰</a>
+            <ul>
+              <li><a href="#">서브메뉴1</a></li>
+              <li><a href="#">서브메뉴2</a></li>
+              <li><a href="#">서브메뉴3</a></li>
+            </ul>
+          </li>
+        </ul>
+        <!-- 강사수정 : right 영역 전체가 하나로 묶여야 배치가 용이함 -->
+        <div class="right">
+          <a href="#">로그인</a>
+          <a href="#">회원가입</a>
+          <a href="#">마이페이지</a>
+          <a href="#">주문조회</a>
+          <div>
+            <a href="#">고객센터</a>
+            <ul>
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">자주하는 질문</a></li>
+              <li><a href="#">1:1문의</a></li>
+            </ul>
+          </div>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </nav>
+    </header>
+
+    <section class="sec1">
+      <!-- 강사수정 : sec1 영역은 넓이를 100% 사용하면서 하위 컨텐츠는 max-width 내부 우측에 배치되어야 합니다. -->
+      <div class="sec1_m">
+        <p>과일 미식가를 위한 리얼후르츠 제철과일 구독서비스</p>
+        <h2>우리는 리얼후르츠 의 과일마스터입니다</h2>
+        <div>
+          <button>제철과일</button>
+          <button>추천과일</button>
+          <button>맞춤선물과일세트</button>
+        </div>
+        <button>구독하기</button>
+      </div>
+    </section>
+
+    <section class="sec2">
+      <h2>제철과일 단품</h2>
+      <article>
+        <div class="swiper sec2_slide1">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="" alt="" /></div>
+                <div class="menu_txt">
+                  <p>명품 제철과일 선물과일 멜론 2입(4kg이상)</p>
+                  <p>19,800원</p>
+                  <p>32,000원</p>
+                </div>
+                <div class="sec2_i">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <a href="#"></a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="" alt="" /></div>
+                <div class="menu_txt">
+                  <p>명품 제철과일 선물과일 멜론 2입(4kg이상)</p>
+                  <p>19,800원</p>
+                  <p>32,000원</p>
+                </div>
+                <div class="sec2_i">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <a href="#"></a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="" alt="" /></div>
+                <div class="menu_txt">
+                  <p>명품 제철과일 선물과일 멜론 2입(4kg이상)</p>
+                  <p>19,800원</p>
+                  <p>32,000원</p>
+                </div>
+                <div class="sec2_i">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <a href="#"></a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="" alt="" /></div>
+                <div class="menu_txt">
+                  <p>명품 제철과일 선물과일 멜론 2입(4kg이상)</p>
+                  <p>19,800원</p>
+                  <p>32,000원</p>
+                </div>
+                <div class="sec2_i">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <a href="#"></a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="" alt="" /></div>
+                <div class="menu_txt">
+                  <p>명품 제철과일 선물과일 멜론 2입(4kg이상)</p>
+                  <p>19,800원</p>
+                  <p>32,000원</p>
+                </div>
+                <div class="sec2_i">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <a href="#"></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- 강사수정 : 버튼도 고유의 class명이 필요합니다. -->
+        <div class="swiper-button-next next1"></div>
+        <div class="swiper-button-prev prev1"></div>
+      </article>
+
+      <h2>과일 패키지</h2>
+      <article>
+        <div class="swiper sec2_slide2">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="" alt="" /></div>
+                <div class="menu_txt">
+                  <p>명품 제철과일 선물과일 멜론 2입(4kg이상)</p>
+                  <p>19,800원</p>
+                  <p>32,000원</p>
+                </div>
+                <div class="sec2_i">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <a href="#"></a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="" alt="" /></div>
+                <div class="menu_txt">
+                  <p>명품 제철과일 선물과일 멜론 2입(4kg이상)</p>
+                  <p>19,800원</p>
+                  <p>32,000원</p>
+                </div>
+                <div class="sec2_i">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <a href="#"></a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="" alt="" /></div>
+                <div class="menu_txt">
+                  <p>명품 제철과일 선물과일 멜론 2입(4kg이상)</p>
+                  <p>19,800원</p>
+                  <p>32,000원</p>
+                </div>
+                <div class="sec2_i">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <a href="#"></a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="" alt="" /></div>
+                <div class="menu_txt">
+                  <p>명품 제철과일 선물과일 멜론 2입(4kg이상)</p>
+                  <p>19,800원</p>
+                  <p>32,000원</p>
+                </div>
+                <div class="sec2_i">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <a href="#"></a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="" alt="" /></div>
+                <div class="menu_txt">
+                  <p>명품 제철과일 선물과일 멜론 2입(4kg이상)</p>
+                  <p>19,800원</p>
+                  <p>32,000원</p>
+                </div>
+                <div class="sec2_i">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <a href="#"></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- 강사수정 : 버튼도 고유의 class명이 필요합니다. -->
+        <div class="swiper-button-next next1"></div>
+        <div class="swiper-button-prev prev1"></div>
+      </article>
+    </section>
+
+    <section class="sec3">
+      <h2>FRUIT STORY</h2>
+
+      <div class="left_ban">
+        <!-- 강사수정 : 
+          이미지가 .left_ban 영역 전체에 사용되기 때문에 이 경우는 div로 wrapping할 필요가 없습니다. 
+          혹은 css의 background 속성으로 이미지를 배치할 수 있습니다.
+        -->
+        <!-- <img src="" alt="" /> -->
+        <p>제철과일 <br /><span>9월</span> 리얼후르츠<br />과일보관법</p>
+        <a href="#"></a>
+      </div>
+
+      <div class="right_ban">
+        <div>
+          <p>맛없어진 과일, 그냥 먹지 마세요~</p>
+          <p>과일맛 살리는 <strong>꿀맛</strong> 레시피</p>
+        </div>
+        <ul class="recipe">
+          <li>
+            <div><img src="" alt="" /></div>
+            <p>푸르츠 아이스바</p>
+            <a href="#">더보기</a>
+          </li>
+          <li>
+            <div><img src="" alt="" /></div>
+            <p>멜론 코코넛 셔벗</p>
+            <a href="#">더보기</a>
+          </li>
+          <li>
+            <div><img src="" alt="" /></div>
+            <p>자두 라임에이드</p>
+            <a href="#">더보기</a>
+          </li>
+          <li>
+            <div><img src="" alt="" /></div>
+            <p>토마토 그라니타</p>
+            <a href="#">더보기</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- 강사수정 : 중간 섹션 분리를 위한 이미지 영역은 가상테그로 넣을 예정인가요?
+        그 방법도 좋겠습니다.
+     -->
+
+    <section class="sec4">
+      <h2>EVENT</h2>
+      <article class="event">
+        <div class="swiper sec4_slide1">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="" alt="" />이미지1</div>
+                <a href="#"></a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="" alt="" />이미지1</div>
+                <a href="#"></a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="" alt="" />이미지1</div>
+                <a href="#"></a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="" alt="" />이미지1</div>
+                <a href="#"></a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <div><img src="" alt="" />이미지1</div>
+                <a href="#"></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </article>
+    </section>
+    <!-- 강사수정 :
+      footer 영역에 max-width를 적용하는 것이라면
+      가상테그를 활용해서 footer 상단의 라인을 만들어 낼 수 있습니다.
+     -->
+    <footer>
+      <div><img src="" alt="logo" /></div>
+      <!-- 강사수정 : customer center 영역이 빠졌네요. -->
+      <div class="customer">customer center</div>
+      <div class="company">
+        <!-- <p>company + 이미지 영역이 빠졌네요.</p> -->
+        <p>법인명(상호) : 주식회사 레드체리 │ 대표자(성명) : 최준호</p>
+        <p>
+          사업자등록번호 : 583-87-00961 │ 통신판매업신고: 제2018-서울마포-1310호
+          [ 사업자정보확인 ]
+        </p>
+        <p>
+          고객센터 : 1877-7235 │ 주소 : 경기도 고양시 일산동구 무궁화로
+          20-18,507호 (42702)
+        </p>
+        <p>개인정보보호책임자 : 이다영 redcherry7272@naver.com )</p>
+      </div>
+      <div class="footer_icons">
+        <a href=""><img src="" alt="" />카</a>
+        <a href=""><img src="" alt="" />네</a>
+        <a href=""><img src="" alt="" />인</a>
+      </div>
+    </footer>
+
+    <script>
+      // navigation class 이름이 동일하면 한번에 모든 슬라이드가 함께 작동됩니다.
+      var swiper1 = new Swiper(".sec2_slide1", {
+        slidesPerView: 4,
+        spaceBetween: 0,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+      var swiper2 = new Swiper(".sec2_slide2", {
+        slidesPerView: 4,
+        spaceBetween: 0,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+      var swiper3 = new Swiper(".sec4_slide1", {
+        slidesPerView: 4,
+        spaceBetween: 0,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
