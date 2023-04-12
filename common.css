@@ -574,7 +574,7 @@ h2 {
     cursor: pointer;
   }
 
-  .hd .gnb.on {
+  /* .hd .gnb.on {
     display: block;
     position: fixed;
     z-index: 99999999999;
@@ -597,7 +597,7 @@ h2 {
   border-radius: 25px;
   width: 100%;
   background-color: white;
-}
+} */
 
 @media (max-width: 800px) {
   .foot {
